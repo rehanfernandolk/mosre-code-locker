@@ -16,6 +16,24 @@ Enter a Morse-code password with a button. On a correct match the servo unlocks;
 
 Default password is Morse for **AA**: `.- .-`
 
+## Prototype
+
+Finished build in a clear enclosure — OLED prompt, Morse button, servo latch, and Arduino Uno inside.
+
+<p align="center">
+  <img src="docs/images/prototype-oled.jpg" alt="Running unit with OLED showing code?" width="480" /><br />
+  <em>Running unit — OLED shows <code>code?</code></em>
+</p>
+
+<p align="center">
+  <img src="docs/images/prototype-board.jpg" alt="Top board with OLED, button, servo, latch" width="260" />
+  &nbsp;
+  <img src="docs/images/prototype-enclosure.jpg" alt="Clear enclosure overview" width="260" />
+  &nbsp;
+  <img src="docs/images/prototype-side.jpg" alt="Side view with power switch and USB" width="260" /><br />
+  <em>Board · Enclosure · Side controls</em>
+</p>
+
 ## Hardware
 
 | Component | Spec / notes | Uno pin |
@@ -62,7 +80,7 @@ Wokwi simulator uses `diagram.json` and firmware in `build/`.
 - `sketch/` — Arduino sketch (CLI / Wokwi build)
 - `src/` — PlatformIO entry
 - `libraries/` — local Arduino libraries
-- `docs/` — wiring map, parts list, exhibition poster
+- `docs/` — wiring map, parts list, exhibition poster, prototype photos (`docs/images/`)
 
 ## License
 
